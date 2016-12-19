@@ -10,7 +10,7 @@ public final class GoBackCard extends TravelCard {
 	}
 	
 	private static Tile goBackSpaces(int numOfSpaces){
-		System.out.println("Calculate tiles 3 spaces behind current tile");
+//		System.out.println("Calculate tiles 3 spaces behind current tile");
 		return TileList.GO;
 	}
 

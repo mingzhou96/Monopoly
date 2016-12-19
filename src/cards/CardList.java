@@ -7,6 +7,15 @@ import tiles.TileList;
  */
 public final class CardList {
 
+	//Get Out Of Jail
+	public static final Card GETOUTOFJAIL = new Card("Get out of jail free ¨C this card may be kept until needed, or sold ") {
+		
+		@Override
+		public void cardEffect() {
+			System.out.println("As description");
+		}
+	};
+	
 	// Money Cards
 	public static final MoneyCard BANKERRORINFAVOR = new ToBankCard("Bank error in your favor-collect $75", 75);
 	public static final MoneyCard DOCTORFEE = new ToBankCard("Doctor's fees-Pay $50", -50);
